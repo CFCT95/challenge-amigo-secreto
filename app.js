@@ -58,3 +58,9 @@ function drawFriend() {
   li.textContent = `Your Secret Santa is: ${chosenFriend}`;
   resultList.appendChild(li);
 }
+// 5. Función para limpiar la lista de amigos
+function clearFriends() {
+    friends = []; // reset the array
+    const list = document.getElementById("friends-list");
+    list.innerHTML = ""; // clear the displayed list
+}

@@ -63,4 +63,6 @@ function clearFriends() {
     friends = []; // reset the array
     const list = document.getElementById("friends-list");
     list.innerHTML = ""; // clear the displayed list
+    const resultList = document.getElementById("result");
+    resultList.innerHTML = ""; // clear the result list
 }
